@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Web Features</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>Advanced Web Features</header>
+
+  <div class="container">
+
+    <!-- Responsive Design -->
+    <section class="responsive-section">
+      <h2>Responsive Box</h2>
+      <p>This layout adjusts automatically for mobile, tablet, and desktop using CSS grid.</p>
+    </section>
+
+    <!-- Quiz -->
+    <section class="quiz-section">
+      <h2>JavaScript Quiz</h2>
+      <div id="quiz-container">
+        <p id="question"></p>
+        <div id="options"></div>
+        <button onclick="nextQuestion()">Next</button>
+        <p id="score"></p>
+      </div>
+    </section>
+
+    <!-- Joke Generator -->
+    <section class="api-section">
+      <h2>Chuck Norris Jokes</h2>
+      <div id="joke-list">
+        <p>Click the button to load 3 jokes!</p>
+      </div>
+      <button onclick="getJokes()">Get Jokes</button>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
